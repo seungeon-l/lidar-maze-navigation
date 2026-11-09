@@ -16,7 +16,7 @@ A ROS 2 course project for navigating a physical maze with LiDAR and no wheel en
 
 ## Robot demo
 
-[Watch the robot navigate the physical maze](https://github.com/user-attachments/assets/863af77f-5daa-4208-b044-c527f65450f3).
+![Robot demo video](https://github.com/user-attachments/assets/863af77f-5daa-4208-b044-c527f65450f3).
 
 ## Main files
 
