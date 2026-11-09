@@ -1,0 +1,7 @@
+# row and column are coordinates in the grid starting from 0
+int32 goal_row
+int32 goal_column
+---
+int32[] path_rows
+int32[] path_columns
+bool[] path_turns

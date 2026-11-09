@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lidar_maze_navigation</name>
+  <version>1.0.0</version>
+  <description>lidar_maze_navigation is a package for localization and maze navigation using a single lidar sensor.</description>
+  <maintainer email="seungeon.s.lee@gmail.com">Seungeon Lee</maintainer>
+  <license>BSD</license>
+  <author>Rico Jonschkowski</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>create_fundamentals</depend>
+  <depend>rclcpp</depend>
+  <depend>visualization_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
